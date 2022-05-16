@@ -1,0 +1,241 @@
+/* main模块样式开始 */
+.main{
+    width: 981px;
+    height: 456px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.focus{
+    float: left;
+    width: 719px;
+    height: 456px;
+    background-color: pink;
+}
+.newsflash{
+    float: right;
+    width: 250px;
+    height: 456px;
+}
+.news{
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.news_hd{
+    padding: 0 15px;
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.news_hd h5{
+    float: left;
+    font-size: 14px;
+}
+.news_hd .more{
+    float:right;
+    font-size: 12px;
+}
+.news_hd .more::after{
+    content: ">";
+}
+.news_bd{
+    padding: 5px 15px 0;
+}
+.news_bd ul li{
+    height: 24px;
+    line-height: 24px;
+     /* 对于文字超出做省略号处理的3段语句 */
+     overflow: hidden;
+     white-space: nowrap;/*不换行*/
+     text-overflow: ellipsis;/*文字超出使用省略号代替*/
+}
+.lifeservice{
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+.lifeservice ul{
+    width: 254px;
+}
+.lifeservice ul li{
+    position: relative;
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right:1px solid #e4e4e4 ;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+    padding-top: 12px;
+}
+.lifeservice ul li i{
+    display: inline-block;
+    width: 21px;
+    height: 26px;
+    background-color: pink;
+    background: url(../images/icons.png) no-repeat -17px -15px;
+}
+.lifeservice .depreciate{
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    top:0;
+    right: 0;
+    background-color: green;
+    color: #fff;
+}
+.barfain{
+    margin-top: 5px;
+}
+/* main模块样式结束 */
+/* recomd模块样式开始 */
+.recomd{
+    height: 163px;
+}
+.recomd_hd{
+    float: left;
+    width: 205px;
+}
+.recomd_bd ul{
+    width: 1400px;
+}
+.recomd_bd ul li{
+    position: relative;
+    float: left;
+}
+.recomd_bd ul li img{
+    width: 249px;
+    height: 163px;
+}
+.recomd_bd ul li:nth-child(-n+3)::after{
+    content: '';
+    position: absolute;
+    top:10px;
+    right: 0;
+    width: 1px;
+    height: 146px;
+    background-color: #ddd;
+}
+/* recomd模块样式开始 */
+/* like模块样式开始 */
+.like{
+    height: 263px;
+    margin-top: 31px;
+}
+.like_hd{
+    height: 28px;
+}
+.like_hd h3{
+    float: left;
+}
+.like_hd p{
+    float: right;
+    margin-right: 22px;
+}
+.like_bd{
+    height: 235px; 
+    margin-left: -1px;  
+}
+.like_bd ul{
+    width: 1204px;
+    height: 235px;
+    border: 1px solid #ededed;
+}
+.like_bd ul li{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 235px;
+    text-align: center;
+}
+.like_bd ul li p{
+    margin-top: 5px;
+    line-height: 22px;
+    font-size: 12px;
+}
+.like_bd ul li h3{
+    margin-right: 47px;
+    font-size: 18px;
+    color: #df3033;
+}
+.like_bd ul li:nth-child(-n+5)::after{
+    position: absolute;
+    content: '';
+    bottom: 10px;
+    right: 0;
+    width: 1px;
+    height: 64px;
+    background-color: #ededed;
+}
+/* like模块样式结束 */
+/* floor楼层样式部分开始 */
+.box_hd{
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3{
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+.box_hd ul{
+    float: right;
+}
+.box_hd ul li{
+    float: left;
+    line-height: 30px;
+}
+.box_hd ul li a{
+    padding: 0 15px;
+    font-style: 12px;
+}
+.floor .w{
+    margin-top: 30px;
+}
+.box_bd{
+    height: 361px;
+}
+.tab_list_item>div{
+    float: left;
+}
+.col_210{
+    width: 210px;
+    height: 361px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.col_210 ul{
+    padding-left: 12px;
+}
+.col_210 ul li{
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+.col_210 img{
+    padding-top: 26px;
+}
+.col_329{
+    width: 329px;
+   
+}
+.col_221{
+    width: 221px;
+    border-right: 1px solid #ededed;
+}
+
+.col_219{
+    width: 219px;
+}
+.bb{
+    display: block;
+    border-bottom: 1px solid #ededed;
+}
+/* floor楼层样式部分结束 */
+
+
+

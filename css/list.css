@@ -1,0 +1,112 @@
+/* sk模块样式部分 */
+.nav{
+    overflow: hidden;
+}
+.sk{
+    position: absolute;
+    top:39px;
+    left: 184px;
+    padding: 3px 0 0 12px;
+    border-left: 2px solid#c81523;
+}
+.sk_list{
+    float: left;
+}
+.sk_list ul li{
+    float: left;
+}
+.sk_list ul li a{
+    display: block;
+    line-height: 47px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    padding: 0 30px;
+}
+.sk_con{
+    float: left;
+}
+.sk_con ul li{
+    float: left;
+}
+.sk_con ul li a{
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 12px;
+}
+.sk_con ul li:last-child a::after{
+    content: '>';
+    margin-left: 5px;
+}
+.clear{
+    clear: both;
+}
+/* sk_container模块样式部分 */
+.sk_bd{
+    float: left;
+    position: relative;
+    width: 290px;
+    height: 470px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+}
+.sk_bd_h li:nth-child(4n) .sk_bd{
+    margin-right: 0;
+}
+.sk_bd:hover{
+    border: 1px solid #c81523; 
+}
+.txt{
+    padding: 0 12px;
+}
+.txt p{
+    font-size: 14px;
+}
+.txt h2{
+    padding: 13px 0;
+}
+.txt h2::before{
+    content: '￥';
+    font-size: 5px;
+    color: #c81523;
+}
+.txt h2::after{
+    content: '￥6988';
+    font-size: 4px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+.bar_list p{
+    float: left;
+}
+.bar{
+    float: left;
+    width: 130px;
+    height: 12px;
+    margin: 0 10px;
+    border: 1px solid #c81523;
+    border-radius: 7px;
+}
+.bar_in{
+    width: 50%;
+    height: 100%;
+    background-color: #c81523;
+    border-radius: 7px;
+    transition: all .3s;
+}
+.bar:hover .bar_in{
+    width: 100%;
+}
+.button{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #c81523;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+

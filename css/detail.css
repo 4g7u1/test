@@ -1,0 +1,256 @@
+.details{
+    height: 637px;
+}
+.detail_left{
+    float: left;
+    height: 667px;
+    width: 400px;
+    padding-top: 26px;
+    background-color: rgb(255, 255, 255);
+}
+.detail_left ul li{
+    float: left;
+    font-size: 12px;
+}
+.iphone{
+    width: 400px;
+    height: 400px;
+    margin-top: 22px;
+    border: 1px solid #ededed;
+}
+.iphone img{
+    margin: 34px 0 0 116px;
+}
+.list{
+    margin-top: 62px;
+}
+.new{
+    margin-left: 30px;
+    padding: 2px 15px;
+    border: 1px solid #c81623;
+}
+.iphone_list{
+    margin-right: 18px;
+}
+.message{
+    margin-top: 25px;
+}
+.message p{
+    float: left;
+    margin-left:36px ;
+    font-size: 12px;
+}
+.detail_right{
+    position: relative;
+    padding-left:81px;
+    float: left;
+    height: 667px;
+    width: 800px;
+}
+.price h3{
+    padding-top: 38px;
+    line-height: 36px;
+    font-size: 16px;
+}
+.price p{
+    line-height: 36px;
+    font-size: 12px;
+    color: #c81623;
+}
+.price ul{
+    height: 112px;
+    background-color: #fee9eb;
+}
+.price ul li i{
+    display:inline-block;
+    width: 70px;
+    text-align: left;
+    letter-spacing: 14px;
+    font-size: 12px;
+    padding:0 10px 0 8px;
+}
+.price ul li strong{
+    font-size: 24px;
+    color: #c81623;
+}
+.price ul li strong::before{
+    content: '￥';
+    font-size: 12px;
+    color: #c81623;
+}
+.price ul li strong::after{
+    content: '降价通知';
+    font-size: 12px;
+    font-weight: 400;
+    color: #c81623;
+}
+.price ul li em{
+    float: right;
+    margin: 10px;
+}
+.price ul li p{
+    display: inline;
+    font-size: 12px;
+    line-height: 35px;
+    color: #999999;
+}
+.price ul li p::before{
+    content: '加价购';
+    line-height: 22px;
+    background-color: #c81623;
+    padding: 4px 2px;
+    margin-right: 8px;
+    color: #fff;
+}
+.address{
+    height: 100px;
+    border-bottom: 1px solid #ededed;
+}
+.address_hd{
+    float: left;
+    width: 70px;
+    padding: 0 8px 0 10px;
+}
+.address_bd{
+    float: left;
+    margin-top: 10px;
+}
+.address_bd p{
+    color: #999999;
+}
+.address_hd p{
+    color: #666666;
+}
+.address_hd p{
+    line-height: 45px; 
+}
+.address_bd p{
+    line-height: 29px;
+}
+/* select模块 */
+.select{
+    height: 237px;
+    padding-top: 28px;
+}
+.select ul li{
+    margin-bottom: 23px;
+}
+.select ul li i{
+    width: 70px;
+    padding: 0 8px 0 10px;
+} 
+.select_f1 > em{
+    display: inline-block;
+    padding: 16px 25px;
+    margin-left: 8px;
+    border:1px solid transparent;
+    font-size: 12px;
+    color: #333333;
+    background-color: #f7f7f7;
+}
+.select_f1 > em:hover{
+    border:1px solid #c81623;
+}
+.select_list em{
+    padding: 11px 12px;
+    margin-left: 8px;
+    border:1px solid transparent;
+    font-size: 12px;
+    color: #333333;
+    background-color: #f7f7f7;
+}
+.select_list em:hover{
+    border:1px solid #c81623;
+}
+/* 加入购物车按钮 */
+.car{
+    bottom: 0;
+    height: 54px;
+}
+.car input{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 141px;
+    height: 46px;
+    font-size: 16px;
+    background-color: #c81623;
+    color: #fff;
+}
+/* classify相关分类部分样式开始 */
+.class_hd{
+    float: left;
+    width: 210px;
+    border: 1px solid #ededed;
+}
+.class_list ul li{
+    width: 210px;
+    height: 220px;
+}
+.list_left{
+    color: #c81623;
+}
+.class_list h4{
+    display: inline-block;
+    width: 186px;
+    font-size: 12px;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 28px;
+    border-bottom: 1px solid #ededed;
+}
+.list_right{
+    border: 1px solid #ededed;
+    border-right:0 ;
+}
+.class_list ul li i{
+    display: inline-block;
+    width: 105px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 12px;
+    text-align: center;
+}
+.class_list ul li em{
+    display: inline-block;
+    width: 105px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px dashed #ededed;
+}
+.class_bd{
+    float: left;
+    margin-left: 11px;
+}
+.class_bd .class_nav{
+    width: 979px;
+    height: 349px;
+}
+.class_nav{
+    border: 1px solid #f1f1f1;
+}
+.class_nav .f1{
+    width: 979px;
+    height: 40px;
+    background-color: #f1f1f1;
+}
+.class_bd .f1 li{
+    float: left;
+    padding: 10px 23px;
+    height: 40px;
+    background-color: #f1f1f1;
+    border: 1px solid transparent;
+}
+.class_bd .f1 .style_bred{
+    background-color: red;
+    color: #fff;
+}
+.class_bd .f1 li:hover{
+    border: 1px solid red;
+}
+.class_magess{
+    padding: 20px;
+}
+
+
